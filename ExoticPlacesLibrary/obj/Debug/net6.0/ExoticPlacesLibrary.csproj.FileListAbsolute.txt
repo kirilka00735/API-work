@@ -1,0 +1,11 @@
+C:\Users\Кирилл\Desktop\ExoticPlacesLibrary\bin\Debug\net6.0\ExoticPlacesLibrary.deps.json
+C:\Users\Кирилл\Desktop\ExoticPlacesLibrary\bin\Debug\net6.0\ExoticPlacesLibrary.dll
+C:\Users\Кирилл\Desktop\ExoticPlacesLibrary\bin\Debug\net6.0\ExoticPlacesLibrary.pdb
+C:\Users\Кирилл\Desktop\ExoticPlacesLibrary\obj\Debug\net6.0\ExoticPlacesLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Кирилл\Desktop\ExoticPlacesLibrary\obj\Debug\net6.0\ExoticPlacesLibrary.AssemblyInfoInputs.cache
+C:\Users\Кирилл\Desktop\ExoticPlacesLibrary\obj\Debug\net6.0\ExoticPlacesLibrary.AssemblyInfo.cs
+C:\Users\Кирилл\Desktop\ExoticPlacesLibrary\obj\Debug\net6.0\ExoticPlacesLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Кирилл\Desktop\ExoticPlacesLibrary\obj\Debug\net6.0\ExoticPlacesLibrary.dll
+C:\Users\Кирилл\Desktop\ExoticPlacesLibrary\obj\Debug\net6.0\refint\ExoticPlacesLibrary.dll
+C:\Users\Кирилл\Desktop\ExoticPlacesLibrary\obj\Debug\net6.0\ExoticPlacesLibrary.pdb
+C:\Users\Кирилл\Desktop\ExoticPlacesLibrary\obj\Debug\net6.0\ref\ExoticPlacesLibrary.dll
