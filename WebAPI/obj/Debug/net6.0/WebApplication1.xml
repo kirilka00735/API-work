@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication1</name>
+    </assembly>
+    <members>
+        <member name="M:WebApplication1.Controllers.PhotoController.Get">
+            <summary>
+            Получить информацию о всех фото
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.PhotoController.GetById(System.Int32)">
+            <summary>
+            Получить информацию о фото по номеру ID
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.PhotoController.Add(WebApplication1.Contracts.Photo.CreatePhotoRequest)">
+             <summary>
+             Добавление нового фото
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 
+                 {
+                     "placeId": 0,
+                     "userId": 0,
+                     "photoUrl": "string",
+                     "description": "string",
+                     "createdBy": "string"
+                 }
+            
+             </remarks>
+             <param name="photo">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.PhotoController.Update(System.Int32,WebApplication1.Contracts.Photo.UpdatePhotoRequest)">
+             <summary>
+             Изменение данных о фото
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 
+                 {
+                     "placeId": 0,
+            "userId": 0,
+            "photoUrl": "string",
+            "description": "string",
+            "createdBy": "string"
+                 }
+            
+             </remarks>
+             <param name="photo">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.PhotoController.Delete(System.Int32)">
+            <summary>
+            Удаление фото
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.PlaceController.Get">
+            <summary>
+            Получить информацию о всех местах
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.PlaceController.GetById(System.Int32)">
+            <summary>
+            Получить информацию о месте по номеру ID
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.PlaceController.Add(WebApplication1.Contracts.Place.CreatePlaceRequest)">
+             <summary>
+             Создание нового места
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 
+                 {
+                     "placeName": "string",
+                     "country": "string",
+                     "description": "string",
+                     "createdBy": "string"
+                 }
+            
+             </remarks>
+             <param name="place">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.PlaceController.Update(System.Int32,WebApplication1.Contracts.Place.UpdatePlaceRequest)">
+             <summary>
+             Изменение данных о месте
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 
+                 {
+                     "placeName": "string",
+                     "country": "string",
+                     "description": "string",
+                     "createdBy": "string"
+                 }
+            
+             </remarks>
+             <param name="place">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.PlaceController.Delete(System.Int32)">
+            <summary>
+            Удаление места
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.RecommendationController.Get">
+            <summary>
+            Получить информацию о всех рекомендациях
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.RecommendationController.GetById(System.Int32)">
+            <summary>
+            Получить информацию о рекомнедации по номеру ID
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.RecommendationController.Add(WebApplication1.Contracts.Recommendation.CreateRecomendation)">
+             <summary>
+             Создание новой рекомендации
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 
+                 {
+                     "placeId": 0,
+                     "userId": 0,
+                     "comment": "string",
+                     "createdBy": "string"
+                 }
+            
+             </remarks>
+             <param name="recommendation">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.RecommendationController.Update(System.Int32,WebApplication1.Contracts.Recommendation.ReccomendationUpdate)">
+             <summary>
+             Изменение данных о рекомендации
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 
+                 {
+                      "placeId": 0,
+                      "userId": 0,
+                      "comment": "string",
+                      "createdBy": "string"
+                 }
+            
+             </remarks>
+             <param name="recommendation">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.RecommendationController.Delete(System.Int32)">
+            <summary>
+            Удаление рекомендации
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.ReviewController.Get">
+            <summary>
+            Получить информацию о всех отзывах
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.ReviewController.GetById(System.Int32)">
+            <summary>
+            Получить информацию о отзыве по номеру ID
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.ReviewController.Add(WebApplication1.Contracts.Review.CreateReviewRequest)">
+             <summary>
+             Создание нового отзыва
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 
+                 {
+                     "placeId": 0,
+                     "userId": 0,
+                     "rating": 0.00,
+                     "comment": "string",
+                     "createdBy": "string"
+                 }
+            
+             </remarks>
+             <param name="review">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.ReviewController.Update(System.Int32,WebApplication1.Contracts.Review.ReviewUpdateRequest)">
+             <summary>
+             Изменение данных об отзыве
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 
+                 {
+                     "placeId": 0,
+                     "userId": 0,
+                     "rating": 0.00,
+                     "comment": "string",
+                     "createdBy": "string"
+                 }
+            
+             </remarks>
+             <param name="review">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.ReviewController.Delete(System.Int32)">
+            <summary>
+            Удаление отзыва
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.UsersController.GetAll">
+            <summary>
+            Получить информацию о всех пользователях
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.UsersController.Add(WebApplication1.Contracts.User.CreateUserRequest)">
+             <summary>
+             Создание нового пользователя
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 
+                 {
+                    "userName": "string",
+                    "email": "string",     
+                    "pass": "string",
+                 }
+            
+             </remarks>
+             <param name="user">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.UsersController.GetById(System.Int32,WebApplication1.Contracts.User.GetUserRequest)">
+            <summary>
+            Получить информацию о отзове по номеру ID
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.UsersController.Update(System.Int32,WebApplication1.Contracts.User.UserUpdateRequest)">
+             <summary>
+             Изменение данных пользователя
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 {
+                    "userName": "string",
+                    "email": "string",
+                    "pass": "string",
+                 }
+            
+             </remarks>
+             <param name="user">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.UsersController.Delete(System.Int32)">
+            <summary>
+            Удаление пользователя
+            </summary>
+        </member>
+    </members>
+</doc>

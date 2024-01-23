@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9QYS4hDSLf6GcEIj7WPNHsFZze76BT2nQ9Eh5inLfBhzU+dTgkKaZ3v9NzvoWcOUAOYFelZn/fHeuvZ0Yrv0gg==",
+  "dgSpecHash": "9FktQjhaK97/7C8InymUBj7MJ76smrhVyWeZiA0NhzDzBtme4NOxbtc2FbDhH6NOOBCXBzuYzzRXNqF2o/XpHw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Кирилл\\Desktop\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "C:\\Users\\Кирилл\\Documents\\GitHub\\API-work\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Кирилл\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Кирилл\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
