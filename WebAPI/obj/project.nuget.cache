@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0usKFyZmm+V7jgmE4zi7riZw4QHk33xGO8PtA/gJ0d7ItWy6j20uQfhn1uGHsWsGJvoHqiK0+RsycpjTJZoEkQ==",
+  "dgSpecHash": "VZbY61kCrfWPUjSha1khfLAQqFyTnfmBAVNyyz3k6UfrsoeDrsJeJiMSYcommwFTC7A/3ed0AB9D7ypwZNtULA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Кирилл\\Desktop\\WebAPI\\WebApplication1.csproj",
+  "projectFilePath": "C:\\Users\\Кирилл\\Documents\\GitHub\\API-work\\WebAPI\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Кирилл\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Кирилл\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",

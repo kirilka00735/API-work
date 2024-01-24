@@ -243,7 +243,7 @@
              <param name="user">Пользователь</param>
              <returns></returns>
         </member>
-        <member name="M:WebApplication1.Controllers.UsersController.GetById(System.Int32,WebApplication1.Contracts.User.GetUserRequest)">
+        <member name="M:WebApplication1.Controllers.UsersController.GetById(System.Int32)">
             <summary>
             Получить информацию о отзове по номеру ID
             </summary>
